@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Jira Gitlab integration - New branch button",
-    "author": "Tóth Krisztián Gyula",
-    "version": "0.0.1",
+    "author": "Paul Kordes (forked from Tóth Krisztián Gyula)",
+    "version": "0.0.2",
     "description": "Adds ability to create new branch on GitLab directly from the Jira issue overview by clicking a button",
     "icons": {
         "16": "icons/icon16.png",
@@ -21,7 +21,7 @@
                 "src/js/content_script.js"
             ],
             "matches": [
-                "https://*.atlassian.net/browse/*"
+                "https://jira.bellmedia.ca/browse/*"
             ]
         }
     ],
